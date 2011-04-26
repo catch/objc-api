@@ -1,0 +1,1942 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CatchClient Class Reference</title>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8" />
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+		<meta name="generator" content="appledoc 2.0.3 (build 668)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CatchClient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/accessToken">&nbsp;&nbsp;&nbsp;&nbsp;accessToken</option>
+	
+	<option value="//api/name/apiScheme">&nbsp;&nbsp;&nbsp;&nbsp;apiScheme</option>
+	
+	<option value="//api/name/apiServer">&nbsp;&nbsp;&nbsp;&nbsp;apiServer</option>
+	
+	<option value="//api/name/appName">&nbsp;&nbsp;&nbsp;&nbsp;appName</option>
+	
+	<option value="//api/name/appUrl">&nbsp;&nbsp;&nbsp;&nbsp;appUrl</option>
+	
+	<option value="//api/name/appVersion">&nbsp;&nbsp;&nbsp;&nbsp;appVersion</option>
+	
+	<option value="//api/name/logDelegate">&nbsp;&nbsp;&nbsp;&nbsp;logDelegate</option>
+	
+	<option value="//api/name/userAgent">&nbsp;&nbsp;&nbsp;&nbsp;userAgent</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addNote:">&nbsp;&nbsp;&nbsp;&nbsp;- addNote:</option>
+	
+	<option value="//api/name/forceAddComment:">&nbsp;&nbsp;&nbsp;&nbsp;- forceAddComment:</option>
+	
+	<option value="//api/name/forceAddMedia:ofType:named:createdAt:toNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- forceAddMedia:ofType:named:createdAt:toNoteWithId:</option>
+	
+	<option value="//api/name/forceAddVoice:ofType:named:createdAt:toNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- forceAddVoice:ofType:named:createdAt:toNoteWithId:</option>
+	
+	<option value="//api/name/forceDeleteCommentWithId:fromNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- forceDeleteCommentWithId:fromNoteWithId:</option>
+	
+	<option value="//api/name/forceDeleteMediaWithId:fromNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- forceDeleteMediaWithId:fromNoteWithId:</option>
+	
+	<option value="//api/name/forceDeleteNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- forceDeleteNoteWithId:</option>
+	
+	<option value="//api/name/forceUpdateComment:">&nbsp;&nbsp;&nbsp;&nbsp;- forceUpdateComment:</option>
+	
+	<option value="//api/name/forceUpdateNote:">&nbsp;&nbsp;&nbsp;&nbsp;- forceUpdateNote:</option>
+	
+	<option value="//api/name/getAccountInfo">&nbsp;&nbsp;&nbsp;&nbsp;- getAccountInfo</option>
+	
+	<option value="//api/name/getAllNoteRefs">&nbsp;&nbsp;&nbsp;&nbsp;- getAllNoteRefs</option>
+	
+	<option value="//api/name/getCommentsForNoteId:">&nbsp;&nbsp;&nbsp;&nbsp;- getCommentsForNoteId:</option>
+	
+	<option value="//api/name/getImageWithId:forNoteWithId:ofSize:">&nbsp;&nbsp;&nbsp;&nbsp;- getImageWithId:forNoteWithId:ofSize:</option>
+	
+	<option value="//api/name/getMediaWithId:forNoteWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- getMediaWithId:forNoteWithId:</option>
+	
+	<option value="//api/name/getNotesForNoteIds:">&nbsp;&nbsp;&nbsp;&nbsp;- getNotesForNoteIds:</option>
+	
+	<option value="//api/name/getNotesForNoteRefs:">&nbsp;&nbsp;&nbsp;&nbsp;- getNotesForNoteRefs:</option>
+	
+	<option value="//api/name/initWithAppName:version:url:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithAppName:version:url:</option>
+	
+	<option value="//api/name/signIn:password:">&nbsp;&nbsp;&nbsp;&nbsp;- signIn:password:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/accessToken">accessToken</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/apiScheme">apiScheme</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/apiServer">apiServer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/appName">appName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/appUrl">appUrl</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/appVersion">appVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logDelegate">logDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userAgent">userAgent</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addNote:">addNote:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceAddComment:">forceAddComment:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceAddMedia:ofType:named:createdAt:toNoteWithId:">forceAddMedia:ofType:named:createdAt:toNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceAddVoice:ofType:named:createdAt:toNoteWithId:">forceAddVoice:ofType:named:createdAt:toNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceDeleteCommentWithId:fromNoteWithId:">forceDeleteCommentWithId:fromNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceDeleteMediaWithId:fromNoteWithId:">forceDeleteMediaWithId:fromNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceDeleteNoteWithId:">forceDeleteNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceUpdateComment:">forceUpdateComment:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forceUpdateNote:">forceUpdateNote:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getAccountInfo">getAccountInfo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getAllNoteRefs">getAllNoteRefs</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getCommentsForNoteId:">getCommentsForNoteId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getImageWithId:forNoteWithId:ofSize:">getImageWithId:forNoteWithId:ofSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getMediaWithId:forNoteWithId:">getMediaWithId:forNoteWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getNotesForNoteIds:">getNotesForNoteIds:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getNotesForNoteRefs:">getNotesForNoteRefs:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithAppName:version:url:">initWithAppName:version:url:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/signIn:password:">signIn:password:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CatchClient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CatchClient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CatchClient.h<br />CatchClient.m</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Manages communication with Catch.com servers.</p><div class="warning"><p><strong>NOTE:</strong> You must create an instance of this class with
+<a href="#//api/name/initWithAppName:version:url:">initWithAppName:version:url:</a> before using any library functionality!</p></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/appName">&nbsp;&nbsp;appName</a></code>
+		<span class="tooltip"><p>The name of your application.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/appVersion">&nbsp;&nbsp;appVersion</a></code>
+		<span class="tooltip"><p>Your application&rsquo;s version number.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/appUrl">&nbsp;&nbsp;appUrl</a></code>
+		<span class="tooltip"><p>The URL for your app&rsquo;s website.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/accessToken">&nbsp;&nbsp;accessToken</a></code>
+		<span class="tooltip"><p>The authentication token.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logDelegate">&nbsp;&nbsp;logDelegate</a></code>
+		<span class="tooltip"><p>Optional delegate to handle API logging.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/apiScheme">&nbsp;&nbsp;apiScheme</a></code>
+		<span class="tooltip"><p>The URL scheme to use for API communications.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/apiServer">&nbsp;&nbsp;apiServer</a></code>
+		<span class="tooltip"><p>The server to use for API communications.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userAgent">&nbsp;&nbsp;userAgent</a></code>
+		<span class="tooltip"><p>The HTTP user agent to use for API communications.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithAppName:version:url:">&ndash;&nbsp;initWithAppName:version:url:</a></code>
+		<span class="tooltip"><p>Initializer.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/signIn:password:">&ndash;&nbsp;signIn:password:</a></code>
+		<span class="tooltip"><p>Sign in to a Catch.com account.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getAccountInfo">&ndash;&nbsp;getAccountInfo</a></code>
+		<span class="tooltip"><p>Get account info.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getAllNoteRefs">&ndash;&nbsp;getAllNoteRefs</a></code>
+		<span class="tooltip"><p>List all notes in an account.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getNotesForNoteRefs:">&ndash;&nbsp;getNotesForNoteRefs:</a></code>
+		<span class="tooltip"><p>Bulk fetch note data by ref.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getNotesForNoteIds:">&ndash;&nbsp;getNotesForNoteIds:</a></code>
+		<span class="tooltip"><p>Bulk fetch note data by id.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getCommentsForNoteId:">&ndash;&nbsp;getCommentsForNoteId:</a></code>
+		<span class="tooltip"><p>Fetch comments for the specified note.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getMediaWithId:forNoteWithId:">&ndash;&nbsp;getMediaWithId:forNoteWithId:</a></code>
+		<span class="tooltip"><p>Fetch media data.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getImageWithId:forNoteWithId:ofSize:">&ndash;&nbsp;getImageWithId:forNoteWithId:ofSize:</a></code>
+		<span class="tooltip"><p>Fetch image data scaled to an approximate resolution.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addNote:">&ndash;&nbsp;addNote:</a></code>
+		<span class="tooltip"><p>Add a new note.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceUpdateNote:">&ndash;&nbsp;forceUpdateNote:</a></code>
+		<span class="tooltip"><p>Edit a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceDeleteNoteWithId:">&ndash;&nbsp;forceDeleteNoteWithId:</a></code>
+		<span class="tooltip"><p>Delete a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceAddComment:">&ndash;&nbsp;forceAddComment:</a></code>
+		<span class="tooltip"><p>Add a comment to a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceUpdateComment:">&ndash;&nbsp;forceUpdateComment:</a></code>
+		<span class="tooltip"><p>Edit a comment even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceDeleteCommentWithId:fromNoteWithId:">&ndash;&nbsp;forceDeleteCommentWithId:fromNoteWithId:</a></code>
+		<span class="tooltip"><p>Delete a comment even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceAddMedia:ofType:named:createdAt:toNoteWithId:">&ndash;&nbsp;forceAddMedia:ofType:named:createdAt:toNoteWithId:</a></code>
+		<span class="tooltip"><p>Attach media to a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceAddVoice:ofType:named:createdAt:toNoteWithId:">&ndash;&nbsp;forceAddVoice:ofType:named:createdAt:toNoteWithId:</a></code>
+		<span class="tooltip"><p>Attach audio (voice) to a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forceDeleteMediaWithId:fromNoteWithId:">&ndash;&nbsp;forceDeleteMediaWithId:fromNoteWithId:</a></code>
+		<span class="tooltip"><p>Remove media from a note even if a conflict exists.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/accessToken" title="accessToken"></a>
+	<h3 class="subsubtitle method-title">accessToken</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The authentication token.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (copy) NSString *accessToken</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The authentication token.</p>
+
+<p>You may set this property manually if you have an access token that you wish
+to re-use.  Otherwise, you should simply call <a href="#//api/name/signIn:password:">signIn:password:</a> to sign in.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/apiScheme" title="apiScheme"></a>
+	<h3 class="subsubtitle method-title">apiScheme</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The URL scheme to use for API communications.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (retain) NSString *apiScheme</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The URL scheme to use for API communications.</p>
+
+<p>This is set to <code>@"https"</code> by default.  You shouldn&rsquo;t need to change it.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/apiServer" title="apiServer"></a>
+	<h3 class="subsubtitle method-title">apiServer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The server to use for API communications.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (retain) NSString *apiServer</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The server to use for API communications.</p>
+
+<p>This is set to <code>@"api.catch.com"</code> by default.  You shouldn&rsquo;t need to change it for
+normal operation.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/appName" title="appName"></a>
+	<h3 class="subsubtitle method-title">appName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of your application.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (copy) NSString *appName</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The name of your application.</p>
+
+<p>Example: <code>@"My Cool App"</code></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/appUrl" title="appUrl"></a>
+	<h3 class="subsubtitle method-title">appUrl</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The URL for your app&rsquo;s website.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (copy) NSString *appUrl</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The URL for your app&rsquo;s website.</p>
+
+<p>Example: <code>@"</code>http://yourcompany.com/MyCoolApp/<code>"</code></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/appVersion" title="appVersion"></a>
+	<h3 class="subsubtitle method-title">appVersion</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Your application&rsquo;s version number.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (copy) NSString *appVersion</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Your application&rsquo;s version number.</p>
+
+<p>Example: <code>@"1.0.1"</code></p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logDelegate" title="logDelegate"></a>
+	<h3 class="subsubtitle method-title">logDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Optional delegate to handle API logging.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (assign) id&lt;CatchClientLogDelegate&gt; logDelegate</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Optional delegate to handle API logging.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="../Protocols/CatchClientLogDelegate.html">CatchClientLogDelegate</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userAgent" title="userAgent"></a>
+	<h3 class="subsubtitle method-title">userAgent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The HTTP user agent to use for API communications.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>@property (retain) NSString *userAgent</code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The HTTP user agent to use for API communications.</p>
+
+<p>This is configured for you automatically using the app name and version arguments
+that you passed to the <a href="#//api/name/initWithAppName:version:url:">initWithAppName:version:url:</a> initializer.  You shouldn&rsquo;t
+need to change it unless you want to do something special.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addNote:" title="addNote:"></a>
+	<h3 class="subsubtitle method-title">addNote:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add a new note.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiNote *)addNote:(CatchApiNote *)<em>note</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>note</em></dt>
+			<dd><p>The note to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The newly added note.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add a new note.</p>
+
+<p>The note&rsquo;s <a href="../Classes/CatchApiNote.html#//api/name/created">[CatchApiNote created]</a> and <a href="../Classes/CatchApiNote.html#//api/name/modified">[CatchApiNote modified]</a> properties will
+be set to the current date and time if they are not set.</p>
+
+<p>The note&rsquo;s <a href="../Classes/CatchApiNote.html#//api/name/source">[CatchApiNote source]</a> and <a href="../Classes/CatchApiNote.html#//api/name/sourceUrl">[CatchApiNote sourceUrl]</a> properties will
+be set to <a href="#//api/name/appName">appName</a> and <a href="#//api/name/appUrl">appUrl</a> if they are not set.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceAddComment:" title="forceAddComment:"></a>
+	<h3 class="subsubtitle method-title">forceAddComment:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add a comment to a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiComment *)forceAddComment:(CatchApiComment *)<em>comment</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>comment</em></dt>
+			<dd><p>The comment to add.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The newly added comment.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Add a comment to a note even if a conflict exists.</p>
+
+<p>The comment&rsquo;s <a href="../Classes/CatchApiComment.html#//api/name/created">[CatchApiComment created]</a> and <a href="../Classes/CatchApiComment.html#//api/name/modified">[CatchApiComment modified]</a>
+properties will be set to the current date and time if they are not set.</p>
+
+<p>The comment&rsquo;s <a href="../Classes/CatchApiComment.html#//api/name/source">[CatchApiComment source]</a> and <a href="../Classes/CatchApiComment.html#//api/name/sourceUrl">[CatchApiComment sourceUrl]</a>
+properties will be set to <a href="#//api/name/appName">appName</a> and <a href="#//api/name/appUrl">appUrl</a> if they are not set.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceAddMedia:ofType:named:createdAt:toNoteWithId:" title="forceAddMedia:ofType:named:createdAt:toNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">forceAddMedia:ofType:named:createdAt:toNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Attach media to a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiMediaRef *)forceAddMedia:(NSData *)<em>media</em> ofType:(NSString *)<em>mimeType</em> named:(NSString *)<em>filename</em> createdAt:(SInt64)<em>created</em> toNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The newly added media ref.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Attach media to a note even if a conflict exists.</p>
+
+<p>Attach images or documents to a note.</p>
+
+<p>For voice notes, please use <a href="#//api/name/forceAddVoice:ofType:named:createdAt:toNoteWithId:">forceAddVoice:ofType:named:createdAt:toNoteWithId:</a>
+instead.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceAddVoice:ofType:named:createdAt:toNoteWithId:" title="forceAddVoice:ofType:named:createdAt:toNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">forceAddVoice:ofType:named:createdAt:toNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Attach audio (voice) to a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiMediaRef *)forceAddVoice:(NSData *)<em>media</em> ofType:(NSString *)<em>mimeType</em> named:(NSString *)<em>filename</em> createdAt:(SInt64)<em>created</em> toNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The newly added media ref.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Attach audio (voice) to a note even if a conflict exists.</p>
+
+<p>Attach audio clips to a note.</p>
+
+<p>For other media types, please use <a href="#//api/name/forceAddMedia:ofType:named:createdAt:toNoteWithId:">forceAddMedia:ofType:named:createdAt:toNoteWithId:</a>
+instead.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceDeleteCommentWithId:fromNoteWithId:" title="forceDeleteCommentWithId:fromNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">forceDeleteCommentWithId:fromNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete a comment even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (void)forceDeleteCommentWithId:(NSString *)<em>commentId</em> fromNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>commentId</em></dt>
+			<dd><p>The comment ID to delete.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>noteId</em></dt>
+			<dd><p>The ID for the comment&rsquo;s parent note.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delete a comment even if a conflict exists.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceDeleteMediaWithId:fromNoteWithId:" title="forceDeleteMediaWithId:fromNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">forceDeleteMediaWithId:fromNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove media from a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (void)forceDeleteMediaWithId:(NSString *)<em>mediaId</em> fromNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Remove media from a note even if a conflict exists.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceDeleteNoteWithId:" title="forceDeleteNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">forceDeleteNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (void)forceDeleteNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>noteId</em></dt>
+			<dd><p>The note ID to delete.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Delete a note even if a conflict exists.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceUpdateComment:" title="forceUpdateComment:"></a>
+	<h3 class="subsubtitle method-title">forceUpdateComment:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Edit a comment even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiComment *)forceUpdateComment:(CatchApiComment *)<em>comment</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>comment</em></dt>
+			<dd><p>The comment to edit.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The edited comment.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Edit a comment even if a conflict exists.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forceUpdateNote:" title="forceUpdateNote:"></a>
+	<h3 class="subsubtitle method-title">forceUpdateNote:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Edit a note even if a conflict exists.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchApiNote *)forceUpdateNote:(CatchApiNote *)<em>note</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>note</em></dt>
+			<dd><p>The note to edit.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The edited note.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Edit a note even if a conflict exists.</p>
+
+<p>This &lsquo;force&rsquo; version does not respect server_modified_at and does not provide
+protection against data loss in the event of a conflict.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getAccountInfo" title="getAccountInfo"></a>
+	<h3 class="subsubtitle method-title">getAccountInfo</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get account info.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (CatchAccount *)getAccountInfo</code></div>
+	
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The account info.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Get account info.</p>
+
+<p>This returns information for the currently signed-in user&rsquo;s account.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getAllNoteRefs" title="getAllNoteRefs"></a>
+	<h3 class="subsubtitle method-title">getAllNoteRefs</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>List all notes in an account.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSArray *)getAllNoteRefs</code></div>
+	
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/CatchApiNoteRef.html">CatchApiNoteRef</a> objects.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>List all notes in an account.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getCommentsForNoteId:" title="getCommentsForNoteId:"></a>
+	<h3 class="subsubtitle method-title">getCommentsForNoteId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetch comments for the specified note.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSArray *)getCommentsForNoteId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>noteId</em></dt>
+			<dd><p>Fetch comments for this note.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/CatchApiComment.html">CatchApiComment</a> objects.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Fetch comments for the specified note.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getImageWithId:forNoteWithId:ofSize:" title="getImageWithId:forNoteWithId:ofSize:"></a>
+	<h3 class="subsubtitle method-title">getImageWithId:forNoteWithId:ofSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetch image data scaled to an approximate resolution.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSData *)getImageWithId:(NSString *)<em>mediaId</em> forNoteWithId:(NSString *)<em>noteId</em> ofSize:(CatchImageSize)<em>size</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>size</em></dt>
+			<dd><p>The image size you wish to fetch.  The server can scale the
+image (preserving aspect ratio) to reduce download time.
+Possible values are listed in the <code>CatchImageSize</code> enumeration&hellip;</p>
+
+<ul>
+<li><code>CatchImageSizeSmall</code> &ndash; Maximum of 128x128 pixels.</li>
+<li><code>CatchImageSizeMedium</code> &ndash; Maximum of 800x800 pixels.</li>
+<li><code>CatchImageSizeLarge</code> &ndash; Maximum of 9999x9999 pixels.</li>
+<li><code>CatchImageSizeOriginal</code> &ndash; Original image at full resolution.</li>
+</ul>
+</dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Media data.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Fetch image data scaled to an approximate resolution.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getMediaWithId:forNoteWithId:" title="getMediaWithId:forNoteWithId:"></a>
+	<h3 class="subsubtitle method-title">getMediaWithId:forNoteWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetch media data.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSData *)getMediaWithId:(NSString *)<em>mediaId</em> forNoteWithId:(NSString *)<em>noteId</em></code></div>
+	
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Media data.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Fetch media data.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getNotesForNoteIds:" title="getNotesForNoteIds:"></a>
+	<h3 class="subsubtitle method-title">getNotesForNoteIds:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Bulk fetch note data by id.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSArray *)getNotesForNoteIds:(NSArray *)<em>noteIds</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>noteIds</em></dt>
+			<dd><p>NSArray of NSString objects representing the desired notes.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/CatchApiNote.html">CatchApiNote</a> objects.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Bulk fetch note data by id.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getNotesForNoteRefs:" title="getNotesForNoteRefs:"></a>
+	<h3 class="subsubtitle method-title">getNotesForNoteRefs:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Bulk fetch note data by ref.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (NSArray *)getNotesForNoteRefs:(NSArray *)<em>noteRefs</em></code></div>
+	
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>noteRefs</em></dt>
+			<dd><p>NSArray of CatchNoteRef objects representing the desired notes.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Array of <a href="../Classes/CatchApiNote.html">CatchApiNote</a> objects.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Bulk fetch note data by ref.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithAppName:version:url:" title="initWithAppName:version:url:"></a>
+	<h3 class="subsubtitle method-title">initWithAppName:version:url:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializer.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (id)initWithAppName:(NSString *)<em>appName</em> version:(NSString *)<em>appVersion</em> url:(NSString *)<em>appUrl</em></code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Initializer.</p>
+
+<p>This initializer configures the <a href="#//api/name/userAgent">userAgent</a> property for you.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/appName">@property appName</a>, <a href="#//api/name/appVersion">@property appVersion</a>, <a href="#//api/name/appUrl">@property appUrl</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/signIn:password:" title="signIn:password:"></a>
+	<h3 class="subsubtitle method-title">signIn:password:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Sign in to a Catch.com account.</p>
+	</div>		
+	
+	
+	<div class="method-subsection method-declaration"><code>- (void)signIn:(NSString *)<em>usernameOrEmail</em> password:(NSString *)<em>password</em></code></div>
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Sign in to a Catch.com account.</p>
+
+<p>This method signs in and sets the <a href="#//api/name/accessToken">accessToken</a> property.</p>
+	</div>
+	
+	
+	
+	<div class="method-subsection arguments-section exceptions">
+		<h4 class="method-subtitle exception-title">Exceptions</h4>
+		
+		<dl class="argument-def exception-def">
+			<dt><em>CatchApiException</em></dt>
+			<dd><p>Thrown on failure.  If username or password
+is incorrect, the exception name will be <code>CATCH_API_EXCEPTION_NOT_AUTHENTICATED</code>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CatchClient.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2011 Catch.com, Inc.. All rights reserved. (Last updated: 2011-04-26)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.3 (build 668)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+		</script>
+	</body>
+</html>
