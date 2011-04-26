@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CatchClient-MacOS' target in the 'CatchClient-MacOS' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

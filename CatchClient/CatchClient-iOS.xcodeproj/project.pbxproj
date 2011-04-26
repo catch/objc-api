@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F47EE76135783590036BAA7 /* CatchApiComment+CatchClientPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F47EE74135783580036BAA7 /* CatchApiComment+CatchClientPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F47EE77135783590036BAA7 /* CatchApiComment+CatchClientPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47EE75135783580036BAA7 /* CatchApiComment+CatchClientPrivate.m */; };
+		1F47EE7A13578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F47EE7813578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F47EE7B13578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47EE7913578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.m */; };
+		1F8F980B13450BE800B535F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8F980A13450BE800B535F2 /* Foundation.framework */; };
+		1FD21EB313450DC5000BF13A /* CLLocation+CatchClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E6613450DC5000BF13A /* CLLocation+CatchClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EB413450DC5000BF13A /* CLLocation+CatchClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E6713450DC5000BF13A /* CLLocation+CatchClient.m */; };
+		1FD21EB513450DC5000BF13A /* NSDictionary+TypeChecked.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E6813450DC5000BF13A /* NSDictionary+TypeChecked.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EB613450DC5000BF13A /* NSDictionary+TypeChecked.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E6913450DC5000BF13A /* NSDictionary+TypeChecked.m */; };
+		1FD21EB713450DC5000BF13A /* NSNumber+OSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E6A13450DC5000BF13A /* NSNumber+OSTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EB813450DC5000BF13A /* NSNumber+OSTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E6B13450DC5000BF13A /* NSNumber+OSTypes.m */; };
+		1FD21EB913450DC5000BF13A /* CatchAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E6D13450DC5000BF13A /* CatchAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EBA13450DC5000BF13A /* CatchAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E6E13450DC5000BF13A /* CatchAccount.m */; };
+		1FD21EBB13450DC5000BF13A /* CatchApiComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E6F13450DC5000BF13A /* CatchApiComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EBC13450DC5000BF13A /* CatchApiComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7013450DC5000BF13A /* CatchApiComment.m */; };
+		1FD21EBD13450DC5000BF13A /* CatchApiException.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7113450DC5000BF13A /* CatchApiException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EBE13450DC5000BF13A /* CatchApiException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7213450DC5000BF13A /* CatchApiException.m */; };
+		1FD21EBF13450DC5000BF13A /* CatchApiMediaRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7313450DC5000BF13A /* CatchApiMediaRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EC013450DC5000BF13A /* CatchApiMediaRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7413450DC5000BF13A /* CatchApiMediaRef.m */; };
+		1FD21EC113450DC5000BF13A /* CatchApiNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7513450DC5000BF13A /* CatchApiNote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EC213450DC5000BF13A /* CatchApiNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7613450DC5000BF13A /* CatchApiNote.m */; };
+		1FD21EC313450DC5000BF13A /* CatchApiNoteRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7713450DC5000BF13A /* CatchApiNoteRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EC413450DC5000BF13A /* CatchApiNoteRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7813450DC5000BF13A /* CatchApiNoteRef.m */; };
+		1FD21EC513450DC5000BF13A /* CatchClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7913450DC5000BF13A /* CatchClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EC613450DC5000BF13A /* CatchClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7A13450DC5000BF13A /* CatchClient.m */; };
+		1FD21EC913450DC5000BF13A /* CatchLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E7D13450DC5000BF13A /* CatchLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ECA13450DC5000BF13A /* CatchLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E7E13450DC5000BF13A /* CatchLocation.m */; };
+		1FD21ECB13450DC5000BF13A /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8213450DC5000BF13A /* ASIAuthenticationDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ECC13450DC5000BF13A /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8313450DC5000BF13A /* ASIAuthenticationDialog.m */; };
+		1FD21ECD13450DC5000BF13A /* ASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8413450DC5000BF13A /* ASICacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ECE13450DC5000BF13A /* ASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8513450DC5000BF13A /* ASIDataCompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ECF13450DC5000BF13A /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8613450DC5000BF13A /* ASIDataCompressor.m */; };
+		1FD21ED013450DC5000BF13A /* ASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8713450DC5000BF13A /* ASIDataDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ED113450DC5000BF13A /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8813450DC5000BF13A /* ASIDataDecompressor.m */; };
+		1FD21ED213450DC5000BF13A /* ASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8913450DC5000BF13A /* ASIDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ED313450DC5000BF13A /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8A13450DC5000BF13A /* ASIDownloadCache.m */; };
+		1FD21ED413450DC5000BF13A /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8B13450DC5000BF13A /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ED513450DC5000BF13A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8C13450DC5000BF13A /* ASIFormDataRequest.m */; };
+		1FD21ED613450DC5000BF13A /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8D13450DC5000BF13A /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ED713450DC5000BF13A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E8E13450DC5000BF13A /* ASIHTTPRequest.m */; };
+		1FD21ED813450DC5000BF13A /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E8F13450DC5000BF13A /* ASIHTTPRequestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21ED913450DC5000BF13A /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9013450DC5000BF13A /* ASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EDA13450DC5000BF13A /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9113450DC5000BF13A /* ASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EDB13450DC5000BF13A /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E9213450DC5000BF13A /* ASIInputStream.m */; };
+		1FD21EDC13450DC5000BF13A /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9313450DC5000BF13A /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EDD13450DC5000BF13A /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E9413450DC5000BF13A /* ASINetworkQueue.m */; };
+		1FD21EDE13450DC5000BF13A /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9513450DC5000BF13A /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EDF13450DC5000BF13A /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9613450DC5000BF13A /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE013450DC5000BF13A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E9713450DC5000BF13A /* Reachability.m */; };
+		1FD21EE113450DC5000BF13A /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9A13450DC5000BF13A /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE213450DC5000BF13A /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E9B13450DC5000BF13A /* GTMBase64.m */; };
+		1FD21EE313450DC5000BF13A /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9C13450DC5000BF13A /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE413450DC5000BF13A /* GTMGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9D13450DC5000BF13A /* GTMGarbageCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE513450DC5000BF13A /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21E9E13450DC5000BF13A /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE613450DC5000BF13A /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21E9F13450DC5000BF13A /* GTMMethodCheck.m */; };
+		1FD21EE713450DC5000BF13A /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EA013450DC5000BF13A /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EE813450DC5000BF13A /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EA113450DC5000BF13A /* GTMNSDictionary+URLArguments.m */; };
+		1FD21EE913450DC5000BF13A /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EA213450DC5000BF13A /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EEA13450DC5000BF13A /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EA313450DC5000BF13A /* GTMNSString+URLArguments.m */; };
+		1FD21EEB13450DC5000BF13A /* GTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EA413450DC5000BF13A /* GTMSystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EEC13450DC5000BF13A /* GTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EA513450DC5000BF13A /* GTMSystemVersion.m */; };
+		1FD21EED13450DC5000BF13A /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EA813450DC5000BF13A /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EEE13450DC5000BF13A /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EA913450DC5000BF13A /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EEF13450DC5000BF13A /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EAA13450DC5000BF13A /* NSObject+SBJSON.m */; };
+		1FD21EF013450DC5000BF13A /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EAB13450DC5000BF13A /* NSString+SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EF113450DC5000BF13A /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EAC13450DC5000BF13A /* NSString+SBJSON.m */; };
+		1FD21EF213450DC5000BF13A /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EAD13450DC5000BF13A /* SBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EF313450DC5000BF13A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EAE13450DC5000BF13A /* SBJsonBase.m */; };
+		1FD21EF413450DC5000BF13A /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EAF13450DC5000BF13A /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EF513450DC5000BF13A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EB013450DC5000BF13A /* SBJsonParser.m */; };
+		1FD21EF613450DC5000BF13A /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EB113450DC5000BF13A /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EF713450DC5000BF13A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EB213450DC5000BF13A /* SBJsonWriter.m */; };
+		1FD21EFD134510E6000BF13A /* GTMObjC2Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21EFB134510E6000BF13A /* GTMObjC2Runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD21EFE134510E6000BF13A /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD21EFC134510E6000BF13A /* GTMObjC2Runtime.m */; };
+		1FD21F031345120D000BF13A /* CatchClientDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD21F021345120D000BF13A /* CatchClientDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF3F1AE135CBC830062556F /* NSData+JsonParanoia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF3F1AC135CBC830062556F /* NSData+JsonParanoia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF3F1AF135CBC830062556F /* NSData+JsonParanoia.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3F1AD135CBC830062556F /* NSData+JsonParanoia.m */; };
+		1FF3F1B2135CBEE80062556F /* NSObject+JsonParanoia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF3F1B0135CBEE80062556F /* NSObject+JsonParanoia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF3F1B3135CBEE80062556F /* NSObject+JsonParanoia.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3F1B1135CBEE80062556F /* NSObject+JsonParanoia.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F47EE74135783580036BAA7 /* CatchApiComment+CatchClientPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatchApiComment+CatchClientPrivate.h"; sourceTree = "<group>"; };
+		1F47EE75135783580036BAA7 /* CatchApiComment+CatchClientPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CatchApiComment+CatchClientPrivate.m"; sourceTree = "<group>"; };
+		1F47EE7813578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatchApiNote+CatchClientPrivate.h"; sourceTree = "<group>"; };
+		1F47EE7913578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CatchApiNote+CatchClientPrivate.m"; sourceTree = "<group>"; };
+		1F8F980713450BE800B535F2 /* libCatchClient-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCatchClient-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8F980A13450BE800B535F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F8F980E13450BE800B535F2 /* CatchClient-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatchClient-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		1FD21E6613450DC5000BF13A /* CLLocation+CatchClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+CatchClient.h"; sourceTree = "<group>"; };
+		1FD21E6713450DC5000BF13A /* CLLocation+CatchClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+CatchClient.m"; sourceTree = "<group>"; };
+		1FD21E6813450DC5000BF13A /* NSDictionary+TypeChecked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TypeChecked.h"; sourceTree = "<group>"; };
+		1FD21E6913450DC5000BF13A /* NSDictionary+TypeChecked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TypeChecked.m"; sourceTree = "<group>"; };
+		1FD21E6A13450DC5000BF13A /* NSNumber+OSTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+OSTypes.h"; sourceTree = "<group>"; };
+		1FD21E6B13450DC5000BF13A /* NSNumber+OSTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+OSTypes.m"; sourceTree = "<group>"; };
+		1FD21E6D13450DC5000BF13A /* CatchAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchAccount.h; sourceTree = "<group>"; };
+		1FD21E6E13450DC5000BF13A /* CatchAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchAccount.m; sourceTree = "<group>"; };
+		1FD21E6F13450DC5000BF13A /* CatchApiComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchApiComment.h; sourceTree = "<group>"; };
+		1FD21E7013450DC5000BF13A /* CatchApiComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchApiComment.m; sourceTree = "<group>"; };
+		1FD21E7113450DC5000BF13A /* CatchApiException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchApiException.h; sourceTree = "<group>"; };
+		1FD21E7213450DC5000BF13A /* CatchApiException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchApiException.m; sourceTree = "<group>"; };
+		1FD21E7313450DC5000BF13A /* CatchApiMediaRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchApiMediaRef.h; sourceTree = "<group>"; };
+		1FD21E7413450DC5000BF13A /* CatchApiMediaRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchApiMediaRef.m; sourceTree = "<group>"; };
+		1FD21E7513450DC5000BF13A /* CatchApiNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchApiNote.h; sourceTree = "<group>"; };
+		1FD21E7613450DC5000BF13A /* CatchApiNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchApiNote.m; sourceTree = "<group>"; };
+		1FD21E7713450DC5000BF13A /* CatchApiNoteRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchApiNoteRef.h; sourceTree = "<group>"; };
+		1FD21E7813450DC5000BF13A /* CatchApiNoteRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchApiNoteRef.m; sourceTree = "<group>"; };
+		1FD21E7913450DC5000BF13A /* CatchClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchClient.h; sourceTree = "<group>"; };
+		1FD21E7A13450DC5000BF13A /* CatchClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchClient.m; sourceTree = "<group>"; };
+		1FD21E7D13450DC5000BF13A /* CatchLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchLocation.h; sourceTree = "<group>"; };
+		1FD21E7E13450DC5000BF13A /* CatchLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchLocation.m; sourceTree = "<group>"; };
+		1FD21E8213450DC5000BF13A /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		1FD21E8313450DC5000BF13A /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		1FD21E8413450DC5000BF13A /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		1FD21E8513450DC5000BF13A /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		1FD21E8613450DC5000BF13A /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		1FD21E8713450DC5000BF13A /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		1FD21E8813450DC5000BF13A /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		1FD21E8913450DC5000BF13A /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		1FD21E8A13450DC5000BF13A /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		1FD21E8B13450DC5000BF13A /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		1FD21E8C13450DC5000BF13A /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		1FD21E8D13450DC5000BF13A /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		1FD21E8E13450DC5000BF13A /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		1FD21E8F13450DC5000BF13A /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		1FD21E9013450DC5000BF13A /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		1FD21E9113450DC5000BF13A /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		1FD21E9213450DC5000BF13A /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		1FD21E9313450DC5000BF13A /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		1FD21E9413450DC5000BF13A /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		1FD21E9513450DC5000BF13A /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		1FD21E9613450DC5000BF13A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1FD21E9713450DC5000BF13A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1FD21E9A13450DC5000BF13A /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		1FD21E9B13450DC5000BF13A /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		1FD21E9C13450DC5000BF13A /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1FD21E9D13450DC5000BF13A /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		1FD21E9E13450DC5000BF13A /* GTMMethodCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMethodCheck.h; sourceTree = "<group>"; };
+		1FD21E9F13450DC5000BF13A /* GTMMethodCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMethodCheck.m; sourceTree = "<group>"; };
+		1FD21EA013450DC5000BF13A /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		1FD21EA113450DC5000BF13A /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		1FD21EA213450DC5000BF13A /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		1FD21EA313450DC5000BF13A /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		1FD21EA413450DC5000BF13A /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSystemVersion.h; sourceTree = "<group>"; };
+		1FD21EA513450DC5000BF13A /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
+		1FD21EA813450DC5000BF13A /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		1FD21EA913450DC5000BF13A /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		1FD21EAA13450DC5000BF13A /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		1FD21EAB13450DC5000BF13A /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		1FD21EAC13450DC5000BF13A /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		1FD21EAD13450DC5000BF13A /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		1FD21EAE13450DC5000BF13A /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		1FD21EAF13450DC5000BF13A /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		1FD21EB013450DC5000BF13A /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		1FD21EB113450DC5000BF13A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		1FD21EB213450DC5000BF13A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		1FD21EFB134510E6000BF13A /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		1FD21EFC134510E6000BF13A /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		1FD21F021345120D000BF13A /* CatchClientDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchClientDefines.h; sourceTree = "<group>"; };
+		1FF3F1AC135CBC830062556F /* NSData+JsonParanoia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JsonParanoia.h"; sourceTree = "<group>"; };
+		1FF3F1AD135CBC830062556F /* NSData+JsonParanoia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JsonParanoia.m"; sourceTree = "<group>"; };
+		1FF3F1B0135CBEE80062556F /* NSObject+JsonParanoia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JsonParanoia.h"; sourceTree = "<group>"; };
+		1FF3F1B1135CBEE80062556F /* NSObject+JsonParanoia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JsonParanoia.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8F980413450BE800B535F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8F980B13450BE800B535F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8F97FC13450BE800B535F2 = {
+			isa = PBXGroup;
+			children = (
+				1FD21E6C13450DC5000BF13A /* Classes */,
+				1FD21E6513450DC5000BF13A /* Categories */,
+				1FD21F011345120D000BF13A /* Other */,
+				1F8F980C13450BE800B535F2 /* CatchClient-iOS */,
+				1FD21E7F13450DC5000BF13A /* Third Party */,
+				1F8F980913450BE800B535F2 /* Frameworks */,
+				1F8F980813450BE800B535F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8F980813450BE800B535F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8F980713450BE800B535F2 /* libCatchClient-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8F980913450BE800B535F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8F980A13450BE800B535F2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F8F980C13450BE800B535F2 /* CatchClient-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F8F980D13450BE800B535F2 /* Supporting Files */,
+			);
+			path = "CatchClient-iOS";
+			sourceTree = "<group>";
+		};
+		1F8F980D13450BE800B535F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F8F980E13450BE800B535F2 /* CatchClient-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FD21E6513450DC5000BF13A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21E6613450DC5000BF13A /* CLLocation+CatchClient.h */,
+				1FD21E6713450DC5000BF13A /* CLLocation+CatchClient.m */,
+				1FD21E6813450DC5000BF13A /* NSDictionary+TypeChecked.h */,
+				1FD21E6913450DC5000BF13A /* NSDictionary+TypeChecked.m */,
+				1FD21E6A13450DC5000BF13A /* NSNumber+OSTypes.h */,
+				1FD21E6B13450DC5000BF13A /* NSNumber+OSTypes.m */,
+				1F47EE74135783580036BAA7 /* CatchApiComment+CatchClientPrivate.h */,
+				1F47EE75135783580036BAA7 /* CatchApiComment+CatchClientPrivate.m */,
+				1F47EE7813578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.h */,
+				1F47EE7913578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.m */,
+				1FF3F1AC135CBC830062556F /* NSData+JsonParanoia.h */,
+				1FF3F1AD135CBC830062556F /* NSData+JsonParanoia.m */,
+				1FF3F1B0135CBEE80062556F /* NSObject+JsonParanoia.h */,
+				1FF3F1B1135CBEE80062556F /* NSObject+JsonParanoia.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1FD21E6C13450DC5000BF13A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21E6D13450DC5000BF13A /* CatchAccount.h */,
+				1FD21E6E13450DC5000BF13A /* CatchAccount.m */,
+				1FD21E6F13450DC5000BF13A /* CatchApiComment.h */,
+				1FD21E7013450DC5000BF13A /* CatchApiComment.m */,
+				1FD21E7113450DC5000BF13A /* CatchApiException.h */,
+				1FD21E7213450DC5000BF13A /* CatchApiException.m */,
+				1FD21E7313450DC5000BF13A /* CatchApiMediaRef.h */,
+				1FD21E7413450DC5000BF13A /* CatchApiMediaRef.m */,
+				1FD21E7513450DC5000BF13A /* CatchApiNote.h */,
+				1FD21E7613450DC5000BF13A /* CatchApiNote.m */,
+				1FD21E7713450DC5000BF13A /* CatchApiNoteRef.h */,
+				1FD21E7813450DC5000BF13A /* CatchApiNoteRef.m */,
+				1FD21E7913450DC5000BF13A /* CatchClient.h */,
+				1FD21E7A13450DC5000BF13A /* CatchClient.m */,
+				1FD21E7D13450DC5000BF13A /* CatchLocation.h */,
+				1FD21E7E13450DC5000BF13A /* CatchLocation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1FD21E7F13450DC5000BF13A /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21E8013450DC5000BF13A /* ASIHTTPRequest */,
+				1FD21E9813450DC5000BF13A /* google-toolbox-for-mac */,
+				1FD21EA613450DC5000BF13A /* JSON */,
+			);
+			name = "Third Party";
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1FD21E8013450DC5000BF13A /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21E8213450DC5000BF13A /* ASIAuthenticationDialog.h */,
+				1FD21E8313450DC5000BF13A /* ASIAuthenticationDialog.m */,
+				1FD21E8413450DC5000BF13A /* ASICacheDelegate.h */,
+				1FD21E8513450DC5000BF13A /* ASIDataCompressor.h */,
+				1FD21E8613450DC5000BF13A /* ASIDataCompressor.m */,
+				1FD21E8713450DC5000BF13A /* ASIDataDecompressor.h */,
+				1FD21E8813450DC5000BF13A /* ASIDataDecompressor.m */,
+				1FD21E8913450DC5000BF13A /* ASIDownloadCache.h */,
+				1FD21E8A13450DC5000BF13A /* ASIDownloadCache.m */,
+				1FD21E8B13450DC5000BF13A /* ASIFormDataRequest.h */,
+				1FD21E8C13450DC5000BF13A /* ASIFormDataRequest.m */,
+				1FD21E8D13450DC5000BF13A /* ASIHTTPRequest.h */,
+				1FD21E8E13450DC5000BF13A /* ASIHTTPRequest.m */,
+				1FD21E8F13450DC5000BF13A /* ASIHTTPRequestConfig.h */,
+				1FD21E9013450DC5000BF13A /* ASIHTTPRequestDelegate.h */,
+				1FD21E9113450DC5000BF13A /* ASIInputStream.h */,
+				1FD21E9213450DC5000BF13A /* ASIInputStream.m */,
+				1FD21E9313450DC5000BF13A /* ASINetworkQueue.h */,
+				1FD21E9413450DC5000BF13A /* ASINetworkQueue.m */,
+				1FD21E9513450DC5000BF13A /* ASIProgressDelegate.h */,
+				1FD21E9613450DC5000BF13A /* Reachability.h */,
+				1FD21E9713450DC5000BF13A /* Reachability.m */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		1FD21E9813450DC5000BF13A /* google-toolbox-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21E9A13450DC5000BF13A /* GTMBase64.h */,
+				1FD21E9B13450DC5000BF13A /* GTMBase64.m */,
+				1FD21E9C13450DC5000BF13A /* GTMDefines.h */,
+				1FD21E9D13450DC5000BF13A /* GTMGarbageCollection.h */,
+				1FD21E9E13450DC5000BF13A /* GTMMethodCheck.h */,
+				1FD21E9F13450DC5000BF13A /* GTMMethodCheck.m */,
+				1FD21EA013450DC5000BF13A /* GTMNSDictionary+URLArguments.h */,
+				1FD21EA113450DC5000BF13A /* GTMNSDictionary+URLArguments.m */,
+				1FD21EA213450DC5000BF13A /* GTMNSString+URLArguments.h */,
+				1FD21EA313450DC5000BF13A /* GTMNSString+URLArguments.m */,
+				1FD21EFB134510E6000BF13A /* GTMObjC2Runtime.h */,
+				1FD21EFC134510E6000BF13A /* GTMObjC2Runtime.m */,
+				1FD21EA413450DC5000BF13A /* GTMSystemVersion.h */,
+				1FD21EA513450DC5000BF13A /* GTMSystemVersion.m */,
+			);
+			path = "google-toolbox-for-mac";
+			sourceTree = "<group>";
+		};
+		1FD21EA613450DC5000BF13A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21EA813450DC5000BF13A /* JSON.h */,
+				1FD21EA913450DC5000BF13A /* NSObject+SBJSON.h */,
+				1FD21EAA13450DC5000BF13A /* NSObject+SBJSON.m */,
+				1FD21EAB13450DC5000BF13A /* NSString+SBJSON.h */,
+				1FD21EAC13450DC5000BF13A /* NSString+SBJSON.m */,
+				1FD21EAD13450DC5000BF13A /* SBJsonBase.h */,
+				1FD21EAE13450DC5000BF13A /* SBJsonBase.m */,
+				1FD21EAF13450DC5000BF13A /* SBJsonParser.h */,
+				1FD21EB013450DC5000BF13A /* SBJsonParser.m */,
+				1FD21EB113450DC5000BF13A /* SBJsonWriter.h */,
+				1FD21EB213450DC5000BF13A /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		1FD21F011345120D000BF13A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1FD21F021345120D000BF13A /* CatchClientDefines.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F8F980513450BE800B535F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD21EB313450DC5000BF13A /* CLLocation+CatchClient.h in Headers */,
+				1FD21EB513450DC5000BF13A /* NSDictionary+TypeChecked.h in Headers */,
+				1FD21EB713450DC5000BF13A /* NSNumber+OSTypes.h in Headers */,
+				1FD21EB913450DC5000BF13A /* CatchAccount.h in Headers */,
+				1FD21EBB13450DC5000BF13A /* CatchApiComment.h in Headers */,
+				1FD21EBD13450DC5000BF13A /* CatchApiException.h in Headers */,
+				1FD21EBF13450DC5000BF13A /* CatchApiMediaRef.h in Headers */,
+				1FD21EC113450DC5000BF13A /* CatchApiNote.h in Headers */,
+				1FD21EC313450DC5000BF13A /* CatchApiNoteRef.h in Headers */,
+				1FD21EC513450DC5000BF13A /* CatchClient.h in Headers */,
+				1FD21EC913450DC5000BF13A /* CatchLocation.h in Headers */,
+				1FD21ECB13450DC5000BF13A /* ASIAuthenticationDialog.h in Headers */,
+				1FD21ECD13450DC5000BF13A /* ASICacheDelegate.h in Headers */,
+				1FD21ECE13450DC5000BF13A /* ASIDataCompressor.h in Headers */,
+				1FD21ED013450DC5000BF13A /* ASIDataDecompressor.h in Headers */,
+				1FD21ED213450DC5000BF13A /* ASIDownloadCache.h in Headers */,
+				1FD21ED413450DC5000BF13A /* ASIFormDataRequest.h in Headers */,
+				1FD21ED613450DC5000BF13A /* ASIHTTPRequest.h in Headers */,
+				1FD21ED813450DC5000BF13A /* ASIHTTPRequestConfig.h in Headers */,
+				1FD21ED913450DC5000BF13A /* ASIHTTPRequestDelegate.h in Headers */,
+				1FD21EDA13450DC5000BF13A /* ASIInputStream.h in Headers */,
+				1FD21EDC13450DC5000BF13A /* ASINetworkQueue.h in Headers */,
+				1FD21EDE13450DC5000BF13A /* ASIProgressDelegate.h in Headers */,
+				1FD21EDF13450DC5000BF13A /* Reachability.h in Headers */,
+				1FD21EE113450DC5000BF13A /* GTMBase64.h in Headers */,
+				1FD21EE313450DC5000BF13A /* GTMDefines.h in Headers */,
+				1FD21EE413450DC5000BF13A /* GTMGarbageCollection.h in Headers */,
+				1FD21EE513450DC5000BF13A /* GTMMethodCheck.h in Headers */,
+				1FD21EE713450DC5000BF13A /* GTMNSDictionary+URLArguments.h in Headers */,
+				1FD21EE913450DC5000BF13A /* GTMNSString+URLArguments.h in Headers */,
+				1FD21EEB13450DC5000BF13A /* GTMSystemVersion.h in Headers */,
+				1FD21EED13450DC5000BF13A /* JSON.h in Headers */,
+				1FD21EEE13450DC5000BF13A /* NSObject+SBJSON.h in Headers */,
+				1FD21EF013450DC5000BF13A /* NSString+SBJSON.h in Headers */,
+				1FD21EF213450DC5000BF13A /* SBJsonBase.h in Headers */,
+				1FD21EF413450DC5000BF13A /* SBJsonParser.h in Headers */,
+				1FD21EF613450DC5000BF13A /* SBJsonWriter.h in Headers */,
+				1FD21EFD134510E6000BF13A /* GTMObjC2Runtime.h in Headers */,
+				1FD21F031345120D000BF13A /* CatchClientDefines.h in Headers */,
+				1F47EE76135783590036BAA7 /* CatchApiComment+CatchClientPrivate.h in Headers */,
+				1F47EE7A13578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.h in Headers */,
+				1FF3F1AE135CBC830062556F /* NSData+JsonParanoia.h in Headers */,
+				1FF3F1B2135CBEE80062556F /* NSObject+JsonParanoia.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F8F980613450BE800B535F2 /* CatchClient-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8F981113450BE800B535F2 /* Build configuration list for PBXNativeTarget "CatchClient-iOS" */;
+			buildPhases = (
+				1F8F980313450BE800B535F2 /* Sources */,
+				1F8F980413450BE800B535F2 /* Frameworks */,
+				1F8F980513450BE800B535F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CatchClient-iOS";
+			productName = "CatchClient-iOS";
+			productReference = 1F8F980713450BE800B535F2 /* libCatchClient-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8F97FE13450BE800B535F2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1F8F980113450BE800B535F2 /* Build configuration list for PBXProject "CatchClient-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F8F97FC13450BE800B535F2;
+			productRefGroup = 1F8F980813450BE800B535F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F8F980613450BE800B535F2 /* CatchClient-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8F980313450BE800B535F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD21EB413450DC5000BF13A /* CLLocation+CatchClient.m in Sources */,
+				1FD21EB613450DC5000BF13A /* NSDictionary+TypeChecked.m in Sources */,
+				1FD21EB813450DC5000BF13A /* NSNumber+OSTypes.m in Sources */,
+				1FD21EBA13450DC5000BF13A /* CatchAccount.m in Sources */,
+				1FD21EBC13450DC5000BF13A /* CatchApiComment.m in Sources */,
+				1FD21EBE13450DC5000BF13A /* CatchApiException.m in Sources */,
+				1FD21EC013450DC5000BF13A /* CatchApiMediaRef.m in Sources */,
+				1FD21EC213450DC5000BF13A /* CatchApiNote.m in Sources */,
+				1FD21EC413450DC5000BF13A /* CatchApiNoteRef.m in Sources */,
+				1FD21EC613450DC5000BF13A /* CatchClient.m in Sources */,
+				1FD21ECA13450DC5000BF13A /* CatchLocation.m in Sources */,
+				1FD21ECC13450DC5000BF13A /* ASIAuthenticationDialog.m in Sources */,
+				1FD21ECF13450DC5000BF13A /* ASIDataCompressor.m in Sources */,
+				1FD21ED113450DC5000BF13A /* ASIDataDecompressor.m in Sources */,
+				1FD21ED313450DC5000BF13A /* ASIDownloadCache.m in Sources */,
+				1FD21ED513450DC5000BF13A /* ASIFormDataRequest.m in Sources */,
+				1FD21ED713450DC5000BF13A /* ASIHTTPRequest.m in Sources */,
+				1FD21EDB13450DC5000BF13A /* ASIInputStream.m in Sources */,
+				1FD21EDD13450DC5000BF13A /* ASINetworkQueue.m in Sources */,
+				1FD21EE013450DC5000BF13A /* Reachability.m in Sources */,
+				1FD21EE213450DC5000BF13A /* GTMBase64.m in Sources */,
+				1FD21EE613450DC5000BF13A /* GTMMethodCheck.m in Sources */,
+				1FD21EE813450DC5000BF13A /* GTMNSDictionary+URLArguments.m in Sources */,
+				1FD21EEA13450DC5000BF13A /* GTMNSString+URLArguments.m in Sources */,
+				1FD21EEC13450DC5000BF13A /* GTMSystemVersion.m in Sources */,
+				1FD21EEF13450DC5000BF13A /* NSObject+SBJSON.m in Sources */,
+				1FD21EF113450DC5000BF13A /* NSString+SBJSON.m in Sources */,
+				1FD21EF313450DC5000BF13A /* SBJsonBase.m in Sources */,
+				1FD21EF513450DC5000BF13A /* SBJsonParser.m in Sources */,
+				1FD21EF713450DC5000BF13A /* SBJsonWriter.m in Sources */,
+				1FD21EFE134510E6000BF13A /* GTMObjC2Runtime.m in Sources */,
+				1F47EE77135783590036BAA7 /* CatchApiComment+CatchClientPrivate.m in Sources */,
+				1F47EE7B13578AF40036BAA7 /* CatchApiNote+CatchClientPrivate.m in Sources */,
+				1FF3F1AF135CBC830062556F /* NSData+JsonParanoia.m in Sources */,
+				1FF3F1B3135CBEE80062556F /* NSObject+JsonParanoia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F8F980F13450BE800B535F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F8F981013450BE800B535F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1F8F981213450BE800B535F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/CatchClient_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatchClient-iOS/CatchClient-iOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F8F981313450BE800B535F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/CatchClient_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatchClient-iOS/CatchClient-iOS-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F8F980113450BE800B535F2 /* Build configuration list for PBXProject "CatchClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8F980F13450BE800B535F2 /* Debug */,
+				1F8F981013450BE800B535F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8F981113450BE800B535F2 /* Build configuration list for PBXNativeTarget "CatchClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8F981213450BE800B535F2 /* Debug */,
+				1F8F981313450BE800B535F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F8F97FE13450BE800B535F2 /* Project object */;
+}

@@ -1,0 +1,5 @@
+What : ASIHTTPRequest and Reachability
+Why  : NSURLConnection is wonky (POST over 3G gives ENOMEM)
+Where: http://allseeing-i.com/ASIHTTPRequest/
+When : Version 1.8
+

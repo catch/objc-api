@@ -1,0 +1,4 @@
+What : JSON [Objective-C JSON parser and generator]
+Where: https://github.com/stig/json-framework/
+When : Stable 2.3.2
+

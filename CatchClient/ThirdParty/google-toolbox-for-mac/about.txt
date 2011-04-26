@@ -1,0 +1,5 @@
+What : Google Toolbox For Mac [Objective-C fun stuffs]
+Why  : NSString and NSDictionary URL argument functionality
+Where: http://code.google.com/p/google-toolbox-for-mac/
+When : Version 1.6.0
+

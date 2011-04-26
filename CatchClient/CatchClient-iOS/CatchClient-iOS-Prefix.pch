@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CatchClient-iOS' target in the 'CatchClient-iOS' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
