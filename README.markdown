@@ -1,5 +1,5 @@
 # libCatchClient
-CatchClient is an Objective-C library for iOS and MacOS X.  It makes it easy to use the Catch.com API.  Here's a quick preview...
+CatchClient is an Objective-C library for iOS and MacOS X.  It makes it easy to use the [Catch.com REST API](https://developer.catch.com/docs/rest_overview).  Here's a quick preview...
 
 ```objc
 CatchClient *client = [[[CatchClient alloc] initWithAppName:@"MyCoolApp" 
@@ -19,7 +19,7 @@ CatchClient *client = [[[CatchClient alloc] initWithAppName:@"MyCoolApp"
 }
 ```
 
-Check out the [online documentation](http://catch.github.com/objc-api/Documentation/) for more.  The [CatchClient class](http://catch.github.com/objc-api/Documentation/Classes/CatchClient.html) is the primary interface, so you might want to start there.
+Check out the [library documentation](http://catch.github.com/objc-api/Documentation/) for more.  The [CatchClient class](http://catch.github.com/objc-api/Documentation/Classes/CatchClient.html) is the primary interface, so you might want to start there.
 
 Also, take a look at the DesktopDemo sample app to see an example of the library in use.  The interesting stuff is in [DesktopDemoAppDelegate.m](https://github.com/catch/objc-api/blob/master/Examples/DesktopDemo/DesktopDemo/DesktopDemoAppDelegate.m).
 
